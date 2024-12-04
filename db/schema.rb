@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_12_04_013324) do
+ActiveRecord::Schema[7.0].define(version: 2024_12_04_113642) do
   create_table "articles", force: :cascade do |t|
     t.string "title"
     t.text "body"
@@ -34,11 +34,11 @@ ActiveRecord::Schema[7.0].define(version: 2024_12_04_013324) do
     t.string "name"
     t.string "types"
     t.string "national_phone_number"
-    t.string "fomatted_address"
+    t.string "formatted_address"
     t.string "latitude"
     t.string "longitude"
     t.decimal "rating"
-    t.string "buiness_status"
+    t.string "business_status"
     t.json "json_data"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
